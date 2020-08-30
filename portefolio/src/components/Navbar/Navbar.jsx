@@ -19,7 +19,7 @@ const Navbar = () => {
         </p>
 
         <p className="Navbar-item">
-          <NavLink to="/portefolio">Portefolio</NavLink>
+          <NavLink to="/portefolio">Réalisations</NavLink>
         </p>
 
         <p className="Navbar-item">

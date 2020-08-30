@@ -1,18 +1,19 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Switch>
-          <Route exact path="/" component={Accueil} />
-          <Route path="/competences" component={Skills} />
-          <Route path="/experiences" component={Experiences} />
-          <Route path="/portefolio" component={Portefolio} />
-          <Route path="/contact" component={Contact} />
-        </Switch> */}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        {/* <Route path="/competences" component={Skills} />
+        <Route path="/experiences" component={Experiences} />
+        <Route path="/realisations" component={Realisations} />
+        <Route path="/contact" component={Contact} /> */}
+      </Switch>
     </div>
   );
 }
