@@ -1,0 +1,29 @@
+.Home-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f68657;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.photoBen {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  color: #2f435e;
+}
+
+.description {
+  color: #2f435e;
+  margin: 5px;
+}

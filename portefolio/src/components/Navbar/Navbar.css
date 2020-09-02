@@ -1,0 +1,23 @@
+.Navbar-container {
+  background-color: #2f435e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Navbar-item {
+  text-align: center;
+  align-items: center;
+  color: white !important;
+}
+
+.Navbar-item :hover {
+  background-color: #44566c;
+  cursor: pointer;
+  color: #f68657;
+  border-radius: 15px;
+}
+a {
+  color: white;
+  text-decoration-line: none;
+}
