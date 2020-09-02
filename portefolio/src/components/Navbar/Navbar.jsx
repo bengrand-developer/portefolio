@@ -15,7 +15,7 @@ const Navbar = () => {
         </p>
 
         <p className="Navbar-item">
-          <NavLink to="/experiences">Expériences</NavLink>
+          <NavLink to="/Experiences">Expériences</NavLink>
         </p>
 
         <p className="Navbar-item">
