@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Experiences from "./components/Experiences/Experiences";
 import Home from "./components/Home/Home";
+import Competences from "./components/Competences/Competences";
 
 function App() {
   return (
@@ -10,10 +11,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Experiences" component={Experiences} />
-        {/* <Route path="/competences" component={Skills} />
-        
-        <Route path="/realisations" component={Realisations} />
+        <Route path="/experiences" component={Experiences} />
+        <Route path="/competences" component={Competences} />
+
+        {/* <Route path="/realisations" component={Realisations} />
         <Route path="/contact" component={Contact} /> */}
       </Switch>
     </div>

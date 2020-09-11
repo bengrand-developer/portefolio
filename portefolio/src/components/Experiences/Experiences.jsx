@@ -4,9 +4,10 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Suitcase from "../img/suitcase.png";
+import WorkIcon from "../img/WorkIcon.png";
 import SchoolIcon from "../img/SchoolIcon.png";
-import Star from "../img/Star.png";
+import StarIcon from "../img/StarIcon.png";
+import "./Experiences.css";
 
 const Experiences = () => {
   return (
@@ -14,99 +15,97 @@ const Experiences = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
+          contentStyle={{
+            background: "#4b5e65",
+            color: "#fff",
+            widht: "200px",
+            height: "150px",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          date="Aout 2020 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<Suitcase />}
+          // icon={WorkIcon}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
+          <h3 className="vertical-timeline-element-title">
+            Développeur Web Fullstack
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>
+          <p>Création d'applications Web avec ReactJs et NodeJs</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          date="Février 2020-Juillet 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<Suitcase />}
+          // icon={}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
+          <h3 className="vertical-timeline-element-title">
+            Etudiant Wild Code School
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>
+          <p>Apprentissage de Javascript sur les frameworks React et NodeJS</p>
+          <p>Hooks, Redux, react-router-dom, Express</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<Suitcase />}
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          date="Octobre 2011-Novembre 2019"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">
+            Conseiller commercial
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
+            Crédit Agricole d'Aquitaine
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>Gestion de portefeuille client</p>
+          <p>Montage et réalisation de prêts habitat et consommation</p>
+          <p>Accompagnement et formation des nouveaux entrants</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="2010-2011"
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<Suitcase />}
+          // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">IF2E</h3>
+          <h4 className="vertical-timeline-element-subtitle">Bègles</h4>
+          <p>Licence Européenne Patrimoine, assurances, banque</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          date="2009-2010"
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
+          // icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <h3 className="vertical-timeline-element-title">ESARC Evolution</h3>
+          <h4 className="vertical-timeline-element-subtitle">Mérignac</h4>
+          <p>BTS Banque option marché des particuliers</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="2007"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          // icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
+            Baccalauréat STG option Gestion des Systèmes d'Information
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
+          <h4 className="vertical-timeline-element-subtitle">Pau</h4>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
-        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<Star />}
+          // icon={<StarIcon />}
         />
       </VerticalTimeline>
     </div>
