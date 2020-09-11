@@ -7,7 +7,9 @@ const Navbar = () => {
     <header className="Header">
       <div className="Navbar-container">
         <p className="Navbar-item">
-          <NavLink to="/">Accueil</NavLink>
+          <NavLink exact to="/">
+            Accueil
+          </NavLink>
         </p>
 
         <p className="Navbar-item">
@@ -15,7 +17,7 @@ const Navbar = () => {
         </p>
 
         <p className="Navbar-item">
-          <NavLink to="/experiences">Expériences</NavLink>
+          <NavLink to="/experiences">Experiences</NavLink>
         </p>
 
         <p className="Navbar-item">
