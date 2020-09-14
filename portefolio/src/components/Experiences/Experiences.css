@@ -5,3 +5,9 @@
 .vertical-timeline-element--work {
   margin: 20px;
 }
+
+.poke-logo {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}

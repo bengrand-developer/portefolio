@@ -21,7 +21,7 @@ const Navbar = () => {
         </p>
 
         <p className="Navbar-item">
-          <NavLink to="/portefolio">Réalisations</NavLink>
+          <NavLink to="/realisations">Réalisations</NavLink>
         </p>
 
         <p className="Navbar-item">

@@ -19,5 +19,5 @@
 }
 a {
   color: white;
-  text-decoration-line: none;
+  text-decoration-line: none !important;
 }
