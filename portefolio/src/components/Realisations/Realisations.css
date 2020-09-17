@@ -1,6 +1,51 @@
 .carousel-container {
-  background-color: yellow;
-  padding-top: 40px;
+  background-color: #211c22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.left-image-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: 60vw;
+  height: max-content;
+  padding: 20px;
+  margin: 15px;
+  background-color: #45566c;
+}
+.right-image-container {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+  width: 60vw;
+  height: max-content;
+  padding: 20px;
+  margin: 15px;
+  background-color: #45566c;
+}
+
+.realisation-picture {
+  width: 60px;
+  height: 60px;
+  padding-right: 15px;
+}
+
+.explication-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.realisation-title {
+  margin: 5px;
+}
+.realisation-text {
+  margin: 5px;
 }
