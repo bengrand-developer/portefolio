@@ -6,6 +6,7 @@ import javascriptLogo from "../img/javascript-logo.png";
 import mysqlLogo from "../img/mysql-logo.png";
 import nodeLogo from "../img/nodejs-logo.png";
 import postmanLogo from "../img/postman-logo.png";
+import githubLogo from "../img/github-logo.png";
 import "./Competences.css";
 
 const Competences = () => {
@@ -22,6 +23,15 @@ const Competences = () => {
         <img className="logo" src={javascriptLogo} alt="node-logo" />
         <img className="logo" src={mysqlLogo} alt="node-logo" />
         <img className="logo" src={postmanLogo} alt="node-logo" />
+        <img className="logo" src={githubLogo} alt="github-logo" />
+      </div>
+      <div className="text-competences-container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+          exercitationem itaque modi commodi rerum porro repudiandae blanditiis
+          ut, incidunt fugit est voluptatibus eaque corporis odit ex quaerat
+          ratione veniam corrupti?
+        </p>
       </div>
     </div>
   );

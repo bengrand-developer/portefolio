@@ -29,3 +29,8 @@
   height: 60px;
   padding: 15px;
 }
+
+.text-competences-container {
+  width: 50vw;
+  border: 2px solid green;
+}

@@ -1,9 +1,10 @@
 .Home-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  background-color: #f68657;
+  /* background-color: #f68657; */
+  height: 100vh;
 }
 
 .photo-container {
@@ -11,6 +12,8 @@
   flex-direction: column;
   align-items: center;
   margin: 40px;
+}
+.title {
 }
 
 .photoBen {
@@ -21,9 +24,12 @@
 }
 .name {
   color: #2f435e;
+  margin: 5px;
+  font-size: 50px;
 }
 
 .description {
   color: #2f435e;
   margin: 5px;
+  font-size: 30px;
 }

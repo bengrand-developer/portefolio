@@ -11,6 +11,7 @@ import pikachu from "../img/pikachu.png";
 import salameche from "../img/salameche.png";
 import spectrum from "../img/spectrum.png";
 import bulbizarre from "../img/bulbizarre.png";
+import maxime from "../img/maxime.jpg";
 import "./Experiences.css";
 
 const Experiences = () => {
@@ -128,6 +129,17 @@ const Experiences = () => {
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           // icon={<StarIcon />}
         />
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2007"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          contentStyle={{ background: "#4b5e65", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          // icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">maxime</h3>
+          <img src={maxime} alt="maxime-photo" className="maxime-photo" />
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );

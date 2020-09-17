@@ -1,5 +1,5 @@
 .Experiences-container {
-  background-color: grey;
+  background-color: #5db4bf;
 }
 
 .vertical-timeline-element--work {
@@ -10,4 +10,10 @@
   object-fit: contain;
   width: 100px;
   height: 100px;
+}
+
+.maxime-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
