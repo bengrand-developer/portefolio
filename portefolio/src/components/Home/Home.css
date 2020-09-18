@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  /* background-color: #f68657; */
+  background-color: #211c22;
   height: 100vh;
 }
 
@@ -23,13 +23,13 @@
   border-radius: 50%;
 }
 .name {
-  color: #2f435e;
+  color: white;
   margin: 5px;
   font-size: 50px;
 }
 
 .description {
-  color: #2f435e;
+  color: #5db4bf;
   margin: 5px;
   font-size: 30px;
 }

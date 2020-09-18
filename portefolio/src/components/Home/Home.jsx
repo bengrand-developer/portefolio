@@ -17,11 +17,6 @@ const Home = () => {
             Développeur Web fullstack ReactJs/NodeJs
           </h4>
         </Typing>
-        <Typing>
-          <h1>Bienvenue!</h1>
-          <Typing.Delay ms={6000} />
-          <Typing.Backspace count={20} />
-        </Typing>
       </div>
     </div>
   );
