@@ -1,5 +1,5 @@
 import React from "react";
-import reactLogo from "../img/react-logo.png";
+import reactLogo from "../img/react-logo3.png";
 import cssLogo from "../img/css-logo.png";
 import htmlLogo from "../img/html-logo.png";
 import javascriptLogo from "../img/javascript-logo.png";

@@ -8,6 +8,9 @@
   height: 100%;
   position: relative;
   z-index: 1;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .left-image-container {
@@ -18,7 +21,13 @@
   height: max-content;
   padding: 20px;
   margin: 15px;
-  background-color: #45566c;
+  background-color: #2f435e;
+  transition: transform 0.6s;
+}
+.left-image-container:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px #45616c;
+  cursor: pointer;
 }
 .right-image-container {
   display: flex;
@@ -28,13 +37,22 @@
   height: max-content;
   padding: 20px;
   margin: 15px;
-  background-color: #45566c;
+  background-color: #2f435e;
+  transition: transform 0.6s;
+}
+.right-image-container:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px #45616c;
+  cursor: pointer;
 }
 
 .realisation-picture {
-  width: 60px;
-  height: 60px;
-  padding-right: 15px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 0;
+  /* padding-right: 15px; */
+  object-fit: contain;
 }
 
 .explication-container {
@@ -48,4 +66,38 @@
 }
 .realisation-text {
   margin: 5px;
+}
+
+.right-image-container a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  transition: transform 0.6s;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration-line: underline;
+}
+
+.right-image-container a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #45566c;
+}
+
+.left-image-container a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  transition: transform 0.6s;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration-line: underline;
+}
+
+.left-image-container a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #45566c;
 }

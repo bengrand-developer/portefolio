@@ -4,14 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import WorkIcon from "../img/WorkIcon.png";
-import SchoolIcon from "../img/SchoolIcon.png";
-import StarIcon from "../img/StarIcon.png";
-import pikachu from "../img/pikachu.png";
-import salameche from "../img/salameche.png";
-import spectrum from "../img/spectrum.png";
-import bulbizarre from "../img/bulbizarre.png";
-import maxime from "../img/maxime.jpg";
 import "./Experiences.css";
 
 const Experiences = () => {
@@ -21,14 +13,17 @@ const Experiences = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
-            background: "#4b5e65",
+            background: "#5db4bf",
             color: "#fff",
             widht: "200px",
             height: "150px",
           }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           date="Aout 2020 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "#fff",
+          }}
           // icon={WorkIcon}
         >
           <h3 className="vertical-timeline-element-title">
@@ -39,8 +34,8 @@ const Experiences = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentStyle={{ background: "#5db4bf", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           date="Février 2020-Juillet 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={}
@@ -54,8 +49,8 @@ const Experiences = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentStyle={{ background: "#5db4bf", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           date="Octobre 2011-Novembre 2019"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -73,8 +68,8 @@ const Experiences = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010-2011"
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentStyle={{ background: "#5db4bf", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -85,8 +80,8 @@ const Experiences = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2009-2010"
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentStyle={{ background: "#5db4bf", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           // icon={<SchoolIcon />}
         >
@@ -98,8 +93,8 @@ const Experiences = () => {
           className="vertical-timeline-element--education"
           date="2007"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
+          contentStyle={{ background: "#5db4bf", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #5db4bf" }}
           // icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -107,39 +102,11 @@ const Experiences = () => {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Pau</h4>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2007"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
-          // icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">MAXIME</h3>
-          <h3 className="vertical-timeline-element-title">PAPA</h3>
-          <h3 className="vertical-timeline-element-title">MAMAN</h3>
-          <h3 className="vertical-timeline-element-title">PAPI</h3>
-          <img src={pikachu} alt="pikachu-logo" className="poke-logo" />
-          <img src={salameche} alt="salameche-logo" className="poke-logo" />
-          <img src={spectrum} alt="spectrum-logo" className="poke-logo" />
-          <img src={bulbizarre} alt="bulbizarre-logo" className="poke-logo" />
-        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           // icon={<StarIcon />}
         />
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2007"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentStyle={{ background: "#4b5e65", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #4b5e65" }}
-          // icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">maxime</h3>
-          <img src={maxime} alt="maxime-photo" className="maxime-photo" />
-        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );

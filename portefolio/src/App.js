@@ -5,6 +5,7 @@ import Experiences from "./components/Experiences/Experiences";
 import Home from "./components/Home/Home";
 import Competences from "./components/Competences/Competences";
 import Realisations from "./components/Realisations/Realisations";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/experiences" component={Experiences} />
         <Route path="/competences" component={Competences} />
         <Route path="/realisations" component={Realisations} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/contact" component={Contact} />
       </Switch>
     </div>
   );
