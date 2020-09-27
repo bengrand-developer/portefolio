@@ -18,3 +18,7 @@
   height: 300px;
   object-fit: contain;
 }
+
+.vertical-timeline-element-content h2 {
+  color: white;
+}

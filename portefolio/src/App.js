@@ -6,6 +6,8 @@ import Home from "./components/Home/Home";
 import Competences from "./components/Competences/Competences";
 import Realisations from "./components/Realisations/Realisations";
 import Contact from "./components/Contact/Contact";
+import Slider from "./components/Slider/Slider";
+import CenterMode from "./components/Slider/Slider";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/experiences" component={Experiences} />
         <Route path="/competences" component={Competences} />
         <Route path="/realisations" component={Realisations} />
+
         <Route path="/contact" component={Contact} />
       </Switch>
     </div>

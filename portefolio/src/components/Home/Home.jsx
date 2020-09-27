@@ -31,10 +31,13 @@ const Home = () => {
         <Modal
           show={show}
           onHide={handleClose}
-          aria-labelledby="example-modal-sizes-title-sm"
+          dialogClassName="modal-90w"
+          aria-labelledby="example-custom-modal-styling-title"
         >
           <Modal.Header closeButton>
-            <Modal.Title>Hello, World!</Modal.Title>
+            <Modal.Title id="example-custom-modal-styling-title">
+              Hello, World!
+            </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
