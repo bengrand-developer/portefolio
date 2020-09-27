@@ -43,26 +43,20 @@ const Home = () => {
             <p>
               Après 8 ans d'expérience dans le secteur bancaire, je me suis
               tourné vers le développement web en 2020 par le biais d'une
-              formation intensive en 5 mois. J'ai su tirer de mes nombreux
-              déménagements en France et dans les DOM-TOM une grande capacité
-              d'adaptation. Je cherche aujourd'hui à m'épanouir dans un métier
-              créatif et motivant. Dans mon précédent métier, j'ai pu développer
-              de nombreuses compétences comme le travail d'équipe que
-              j'affectionne particulièrement, la relation client , l'expertise
-              commerciale, la recherche de solutions adaptées au client.
-              Désormais, en tant que développeur, je m'épanouis dans un métier
-              qui me permet de me remettre en question constamment, de
-              participer à des projets en équipe et d'apprendre sans cesse.
-              Ayant passé le cap de la reconversion en novembre 2019, j'ai
-              rejoins une formation de développeur Web full-stack en Mars 2020
-              permettant de développer mes compétences sur React et Node.js, et
-              d'acquérir de nouvelles connaissances . Ma formation se terminant
-              le 31 Juillet 2020, je suis à la recherche d'un poste (CDI, CDD),
-              ou d'un stage d'une durée de 2 à 4 mois, afin d'améliorer mes
+              formation intensive en 5 mois. Aujourd'hui, en tant que
+              développeur, je m'épanouis dans un métier qui me permet de me
+              remettre en question constamment, de participer à des projets en
+              équipe et d'apprendre sans cesse. Ayant passé le cap de la
+              reconversion en novembre 2019, j'ai rejoins une formation de
+              développeur Web full-stack en Mars 2020 permettant de développer
+              mes compétences sur React et Node.js, et d'acquérir de nouvelles
+              connaissances . Je suis à la recherche d'un poste (CDI, CDD), ou
+              d'un stage d'une durée de 2 à 4 mois, afin d'améliorer mes
               compétences et d'intégrer le monde professionnel du développement
               Web.Je suis à la recherche d'un environnement favorisant le
-              travail d'équipe et l'apprentissage. Contactez-moi!
+              travail d'équipe et l'apprentissage.
             </p>
+            <p>Contactez-moi!</p>
           </Modal.Body>
         </Modal>
       </div>

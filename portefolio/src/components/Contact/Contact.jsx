@@ -7,7 +7,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="big-Contact-container">
-      <h3 className="contact-title">Contact</h3>
+      <h1 className="contact-title">Contact</h1>
       <div className="little-contact-container">
         <img src={mailIcon} alt="mail-icon" className="contact-icon" />
 

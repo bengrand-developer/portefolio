@@ -27,14 +27,14 @@
 }
 .name {
   color: white;
-  margin: 5px;
+  /* margin: 5px; */
   font-size: 80px;
   margin-bottom: 15px;
 }
 
 .description {
   color: #3ec1ec;
-  margin: 5px;
+  /* margin: 5px; */
   font-size: 50px;
   margin-bottom: 15px;
 }
@@ -58,4 +58,6 @@
   border: solid 2px white;
   cursor: pointer;
   outline: none;
+  background-color: white;
+  color: #2f435e;
 }
