@@ -2,6 +2,7 @@ import React from "react";
 import mailIcon from "../img/mail-icon.png";
 import phoneIcon from "../img/phone-icon.png";
 import linkedinIcon from "../img/linkedin-icon.png";
+import whiteGithubLogo from "../img/white-github.png";
 import "./Contact.css";
 
 const Contact = () => {
@@ -26,6 +27,16 @@ const Contact = () => {
 
         <a href="https://www.linkedin.com/in/benoitgrand/" target="_blank">
           Cliquez ici!
+        </a>
+      </div>
+      <div className="little-contact-container">
+        <img
+          src={whiteGithubLogo}
+          alt="white-github-icon"
+          className="contact-icon"
+        />
+        <a href="https://github.com/bengrand-developer" target="_blank">
+          Profil Github
         </a>
       </div>
     </div>

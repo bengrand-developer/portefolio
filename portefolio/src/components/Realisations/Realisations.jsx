@@ -49,6 +49,9 @@ const Realisations = () => {
             santé avec un enfant dans un environnement sécurisant. Projet
             réalisé lors d'un Hackathon en équipe de 48h.
           </p>
+          <p className="realisation-text">
+            Technologies utilisées: ReactJS, Node, Hooks, HTML, CSS
+          </p>
           <a href="" target="_blank">
             voir la démo
           </a>
@@ -65,6 +68,10 @@ const Realisations = () => {
             festival à l'international. Une application a été développée en
             parallèle pour gérer la partie administrateur.3 personnes ont
             travaillés sur ce projet.
+          </p>
+          <p className="realisation-text">
+            {" "}
+            Technologies utilisées: ReactJs, Hooks, HTML, CSS.
           </p>
           <a href="https://youtu.be/8Zm7OQzI5oM" target="_blank">
             Voir la démo
@@ -88,12 +95,12 @@ const Realisations = () => {
             <p className="realisation-text">
               Coup de&ensp;
               <img src={coeurLogo} alt="coeur" className="little-icons" />
-              &ensp;du Jury de la Wild Code School
+              &ensp;du Jury de la Wild Code School!
             </p>
           </p>
           <p className="realisation-text">
             Technologies utilisées: ReactJs, API Yoda Translator, API Random
-            Jokes{" "}
+            Jokes, HTML, CSS.
           </p>
           <a
             href="https://relaxed-archimedes-67f0e9.netlify.app/"
