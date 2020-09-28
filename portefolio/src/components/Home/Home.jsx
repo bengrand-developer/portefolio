@@ -3,7 +3,6 @@ import Typing from "react-typing-animation";
 import photoBen from "../img/photoBen.jpg";
 import Modal from "react-bootstrap/Modal";
 import "./Home.css";
-import { ModalTitle } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {

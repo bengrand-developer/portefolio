@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import ScrollToTop from "react-scroll-to-top";
+
 import WildalorianLogo from "../img/the-wildalorian.jpg";
 import doctoDino from "../img/doctodino.png";
 import FestIt from "../img/logoFestIt.png";
@@ -9,6 +10,7 @@ import "./Realisations.css";
 const Realisations = () => {
   return (
     <div className="carousel-container">
+      <ScrollToTop smooth color="#45566c" />
       <h1 className="realisations-title">Réalisations</h1>
       <div className="left-image-container">
         <h1 className="nrgybox-logo">
