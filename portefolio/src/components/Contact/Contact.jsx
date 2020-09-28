@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 import mailIcon from "../img/mail-icon.png";
 import phoneIcon from "../img/phone-icon.png";
 import linkedinIcon from "../img/linkedin-icon.png";
@@ -8,6 +9,11 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="big-Contact-container">
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{ backgroundColor: "#45566c" }}
+      />
       <h1 className="contact-title">Contact</h1>
       <div className="little-contact-container">
         <img src={mailIcon} alt="mail-icon" className="contact-icon" />

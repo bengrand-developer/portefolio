@@ -10,7 +10,11 @@ import "./Realisations.css";
 const Realisations = () => {
   return (
     <div className="carousel-container">
-      <ScrollToTop smooth color="#45566c" />
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{ backgroundColor: "#45566c" }}
+      />
       <h1 className="realisations-title">Réalisations</h1>
       <div className="left-image-container">
         <h1 className="nrgybox-logo">
@@ -75,7 +79,7 @@ const Realisations = () => {
             {" "}
             Technologies utilisées: ReactJs, Hooks, HTML, CSS.
           </p>
-          <a href="https://youtu.be/8Zm7OQzI5oM" target="_blank">
+          <a href="https://youtu.be/Bm3r-jcIcL0" target="_blank">
             Voir la démo
           </a>
         </div>

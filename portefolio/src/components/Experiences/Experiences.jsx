@@ -3,12 +3,18 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import ScrollToTop from "react-scroll-to-top";
 import "react-vertical-timeline-component/style.min.css";
 import "./Experiences.css";
 
 const Experiences = () => {
   return (
     <div className="Experiences-container">
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{ backgroundColor: "#45566c" }}
+      />
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

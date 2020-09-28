@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 import reactLogo from "../img/react-logo3.png";
 import cssLogo from "../img/css-logo.png";
 import htmlLogo from "../img/html-logo.png";
@@ -12,6 +13,11 @@ import "./Competences.css";
 const Competences = () => {
   return (
     <div className="competences-container">
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{ backgroundColor: "#45566c" }}
+      />
       <h1 className="competences-title">Compétences</h1>
       <div className="logo-container1">
         <img className="logo" src={reactLogo} alt="react-logo" />
