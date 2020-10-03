@@ -12,14 +12,18 @@ const Contact = () => {
       <ScrollToTop
         smooth
         color="white"
-        style={{ backgroundColor: "#45566c" }}
+        style={{ backgroundColor: "#45566c", outline: "none" }}
       />
       <h1 className="contact-title">Contact</h1>
       <div className="little-contact-container">
         <img src={mailIcon} alt="mail-icon" className="contact-icon" />
 
         <p>bengrand.pro@gmail.com</p>
-        <a href="mailto:bengrand.pro@gmail.com" target="_blank">
+        <a
+          href="mailto:bengrand.pro@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           m'écrire
         </a>
       </div>
@@ -31,7 +35,11 @@ const Contact = () => {
       <div className="little-contact-container">
         <img src={linkedinIcon} alt="linkedin-icon" className="contact-icon" />
 
-        <a href="https://www.linkedin.com/in/benoitgrand/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/benoitgrand/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Cliquez ici!
         </a>
       </div>
@@ -41,7 +49,11 @@ const Contact = () => {
           alt="white-github-icon"
           className="contact-icon"
         />
-        <a href="https://github.com/bengrand-developer" target="_blank">
+        <a
+          href="https://github.com/bengrand-developer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Profil Github
         </a>
       </div>

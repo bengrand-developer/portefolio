@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Typing from "react-typing-animation";
-import photoBen from "../img/photoBen.jpg";
+import devLogo from "../img/dev-logo.png";
 import Modal from "react-bootstrap/Modal";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="Home-container">
       <div className="photo-container">
-        <img src={photoBen} alt="photoBen" className="photoBen" />
+        <img src={devLogo} alt="photoBen" className="photoBen" />
       </div>
       <div className="title">
         <Typing>

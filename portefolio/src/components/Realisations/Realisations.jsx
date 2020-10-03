@@ -13,7 +13,7 @@ const Realisations = () => {
       <ScrollToTop
         smooth
         color="white"
-        style={{ backgroundColor: "#45566c" }}
+        style={{ backgroundColor: "#45566c", outline: "none" }}
       />
       <h1 className="realisations-title">Réalisations</h1>
       <div className="left-image-container">
@@ -34,7 +34,11 @@ const Realisations = () => {
             Technologies utilisées: ReactJs, NodeJs, Express, Hooks, Redux,
             React-router-dom
           </p>
-          <a href="" target="_blank">
+          <a
+            href="https://youtu.be/LnmSwNnqVGM"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             voir la démo
           </a>
         </div>
@@ -58,7 +62,7 @@ const Realisations = () => {
           <p className="realisation-text">
             Technologies utilisées: ReactJS, Node, Hooks, HTML, CSS
           </p>
-          <a href="" target="_blank">
+          <a href="" target="_blank" rel="noopener noreferrer">
             voir la démo
           </a>
         </div>
@@ -76,10 +80,13 @@ const Realisations = () => {
             travaillés sur ce projet.
           </p>
           <p className="realisation-text">
-            {" "}
             Technologies utilisées: ReactJs, Hooks, HTML, CSS.
           </p>
-          <a href="https://youtu.be/Bm3r-jcIcL0" target="_blank">
+          <a
+            href="https://youtu.be/aBgMpKj7izI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Voir la démo
           </a>
         </div>
@@ -111,6 +118,7 @@ const Realisations = () => {
           <a
             href="https://relaxed-archimedes-67f0e9.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Visitez le vaisseau du Wildalorian
           </a>
@@ -127,13 +135,17 @@ const Realisations = () => {
         <div className="explication-container">
           <h4 className="realisation-title">Espace Yoga</h4>
           <p className="realisation-text">
-            Site vitrine fictive pour une association de quartien promouvant la
-            pratique du Yoga
+            Site vitrine fictive pour une association de quartier promouvant la
+            pratique du Yoga.
           </p>
           <p className="realisation-text">
             Technologies utilisées: HTML, CSS, Vanilla JS
           </p>
-          <a href="https://youtu.be/fCFAVtDhrN8" target="_blank">
+          <a
+            href="https://youtu.be/fCFAVtDhrN8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             voir la démo
           </a>
         </div>

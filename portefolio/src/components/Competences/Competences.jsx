@@ -33,10 +33,9 @@ const Competences = () => {
       </div>
       <div className="text-competences-container">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
-          exercitationem itaque modi commodi rerum porro repudiandae blanditiis
-          ut, incidunt fugit est voluptatibus eaque corporis odit ex quaerat
-          ratione veniam corrupti?
+          Durant mon apprentissage à la Wild Code School, j'ai appris à
+          travailler sur différentes technologies. J'y ai également appris à
+          travailler en appliquant la méthode SCRUM et la méthode AGILE.
         </p>
       </div>
     </div>

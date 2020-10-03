@@ -13,7 +13,7 @@ const Experiences = () => {
       <ScrollToTop
         smooth
         color="white"
-        style={{ backgroundColor: "#45566c" }}
+        style={{ backgroundColor: "#45566c", outline: "none" }}
       />
       <VerticalTimeline>
         <VerticalTimelineElement

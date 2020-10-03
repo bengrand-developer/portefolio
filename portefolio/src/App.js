@@ -6,8 +6,6 @@ import Home from "./components/Home/Home";
 import Competences from "./components/Competences/Competences";
 import Realisations from "./components/Realisations/Realisations";
 import Contact from "./components/Contact/Contact";
-import Slider from "./components/Slider/Slider";
-import CenterMode from "./components/Slider/Slider";
 
 function App() {
   return (
