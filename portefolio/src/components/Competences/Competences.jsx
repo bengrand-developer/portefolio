@@ -19,24 +19,43 @@ const Competences = () => {
         style={{ backgroundColor: "#45566c" }}
       />
       <h1 className="competences-title">Compétences</h1>
+      <div className="big-competence-container">
       <div className="logo-container1">
-        <img className="logo" src={reactLogo} alt="react-logo" />
+        <div className="mini-logo-container">
+        <img className="logo" src={reactLogo} alt="react-logo"/>
+        <a>ReactJs</a>
+        </div>
+        <div className="mini-logo-container">
         <img className="logo" src={nodeLogo} alt="node-logo" />
-        <img className="logo" src={htmlLogo} alt="node-logo" />
-        <img className="logo" src={cssLogo} alt="node-logo" />
+        <a>Node</a>
+        </div>
+        <div className="mini-logo-container">
+        <img className="logo" src={htmlLogo} alt="html-logo" />
+        <a>HTML5</a>
+        </div>
+        <div className="mini-logo-container">
+        <img className="logo" src={cssLogo} alt="css-logo" />
+        <a>CSS3</a>
+        </div>
       </div>
       <div className="logo-container2">
-        <img className="logo" src={javascriptLogo} alt="node-logo" />
-        <img className="logo" src={mysqlLogo} alt="node-logo" />
-        <img className="logo" src={postmanLogo} alt="node-logo" />
+      <div className="mini-logo-container">
+        <img className="logo" src={javascriptLogo} alt="js-logo" />
+        <a>Javascript</a>
+        </div>
+        <div className="mini-logo-container">
+        <img className="logo" src={mysqlLogo} alt="sql-logo" />
+        <a>mySQL</a>
+        </div>
+        <div className="mini-logo-container">
+        <img className="logo" src={postmanLogo} alt="postman-logo" />
+        <a>Postman</a>
+        </div>
+        <div className="mini-logo-container">
         <img className="logo" src={githubLogo} alt="github-logo" />
+        <a>Github</a>
+        </div>
       </div>
-      <div className="text-competences-container">
-        <p>
-          Durant mon apprentissage à la Wild Code School, j'ai appris à
-          travailler sur différentes technologies. J'y ai également appris à
-          travailler en appliquant la méthode SCRUM et la méthode AGILE.
-        </p>
       </div>
     </div>
   );

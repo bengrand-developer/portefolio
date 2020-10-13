@@ -8,14 +8,24 @@
   width: 100%;
   color: white;
 }
+.big-competence-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  background-color: #2f435e;
+  margin-top: 50px;
+}
 
 .logo-container1 {
   display: flex;
   justify-content: center;
   /* border: solid 2px black; */
   width: 75%;
-  height: 100px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .logo-container2 {
@@ -23,15 +33,15 @@
   justify-content: center;
   /* border: solid 2px black; */
   width: 75%;
-  height: 100px;
+
   padding-top: 15px;
   margin-bottom: 20px;
 }
 
 .logo {
   object-fit: contain;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   padding: 15px;
   margin: 10px;
 }
@@ -43,4 +53,17 @@
   background-color: #2f435e;
   color: white;
   margin-top: 15px;
+}
+
+.mini-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.mini-logo-container a {
+  font-weight: bold;
 }
