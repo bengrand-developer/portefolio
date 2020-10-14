@@ -1,0 +1,17 @@
+.Footer {
+  background-color: #2f435e;
+  color: white;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid white 1px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}

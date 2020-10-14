@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Competences from "./components/Competences/Competences";
 import Realisations from "./components/Realisations/Realisations";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
         <Route path="/contact" component={Contact} />
       </Switch>
+      <Footer/>
     </div>
   );
 }

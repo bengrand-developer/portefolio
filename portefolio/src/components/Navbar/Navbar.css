@@ -6,7 +6,7 @@
   position: relative;
   z-index: 99;
   font-family: "Monserrat", sans-serif;
-
+  border-bottom: solid white 1px;
   width: 100%;
 }
 
