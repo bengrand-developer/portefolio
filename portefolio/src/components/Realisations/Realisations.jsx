@@ -5,6 +5,7 @@ import WildalorianLogo from "../img/the-wildalorian.jpg";
 import doctoDino from "../img/doctodino.png";
 import FestIt from "../img/logoFestIt.png";
 import coeurLogo from "../img/coeur.png";
+import yogaLogo from "../img/lotus-flower.png";
 import "./Realisations.css";
 
 const Realisations = () => {
@@ -127,7 +128,7 @@ const Realisations = () => {
       <div className="left-image-container">
         <div className="picture-container">
           <img
-            src="https://zupimages.net/up/20/11/cow8.png"
+            src={yogaLogo}
             alt="yoga-logo"
             className="realisation-picture"
           />
