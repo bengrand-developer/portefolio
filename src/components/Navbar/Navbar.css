@@ -1,12 +1,12 @@
 .Navbar-container {
-  background-color: #2f435e;
+  -webkit-background-color: #2f435e !important;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   position: relative;
   z-index: 99;
   font-family: "Monserrat", sans-serif;
-  border-bottom: solid white 1px;
+  border-bottom: solid white 1px !important;
   width: 100%;
 }
 
