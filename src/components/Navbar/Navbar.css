@@ -1,5 +1,5 @@
 .Navbar-container {
-  -webkit-background-color: #2f435e !important;
+  background-color: #2f435e !important;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
