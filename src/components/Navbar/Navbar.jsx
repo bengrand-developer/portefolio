@@ -1,10 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import ResponsiveMenu from 'react-responsive-navbar';
 import devIcon from "../img/dev-logo.png";
 
 const Navbar = () => {
   return (
+    <ResponsiveMenu
+        menuOpenButton={<div />}
+        menuCloseButton={<div />}
+        changeMenuOn="500px"
+        largeMenuClassName="large-menu-classname"
+        smallMenuClassName="small-menu-classname"
+        menu={
     <header className="Header">
       <div className="Navbar-container">
         <div className="navbar-logo">
@@ -37,6 +45,7 @@ const Navbar = () => {
         </p>
       </div>
     </header>
+        }/>
   );
 };
 
